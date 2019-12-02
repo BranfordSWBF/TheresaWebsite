@@ -15,7 +15,7 @@ fi
 # Function to update Academic
 function install_update () {
   # Apply any updates
-  git submodule update --remote --merge
+  # git submodule update --remote --merge
 
   # - Update Netlify.toml with required Hugo version
   if [ -f ./netlify.toml ]; then
